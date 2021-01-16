@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./ass/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <img class='logo' src='./ass/logo.png'>
+    <div class='inputs'>
+      <div>
+        <p>Computer</p>
+        <img id='computer' src='https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png'>
+      </div>
+      <div class='output' >
+        <p id='situation'></p>
+        <p id='score'></p>
+      </div>
+      <div>
+        <p>Player</p>
+        <img id='player' src='https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png'>
+      </div>
+    </div>
+    <div class='options'>
+      <img  class='input' onClick="checkWinner('scissors')" src='./ass/scissors.png'>
+      <img class='input'  onClick="checkWinner('rock')" src='./ass/rock.png'>
+      <img  class='input'  onClick="checkWinner('paper')" src='./ass/paper.png'>
+    </div>
+  </main>
+  <footer></footer>
+  <script src='./app.js'></script>
+</body>
+</html>

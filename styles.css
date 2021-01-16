@@ -1,0 +1,33 @@
+body{
+  background-color:cornsilk;
+  text-align: center;
+}
+
+.input {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.input:hover{
+  background-color: rgba(127, 255, 212, 0.123);
+}
+
+#computer , #player{
+  width: 150px;
+  height: 150px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#situation , #score{ 
+  font-size: 26px;
+}
+
+.logo{
+  width: 150px;
+}
